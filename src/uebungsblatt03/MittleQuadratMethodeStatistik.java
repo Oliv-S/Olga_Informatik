@@ -1,20 +1,20 @@
 package uebungsblatt03;
 
-public class MittleQuadratMethode2 {
+public class MittleQuadratMethodeStatistik {
 
 	public static void main(String[] args) {
+		
+		//Überprüfe den Zyklus für jede Nummer 
 		for (int i=1; i<99;i++)
 		{
 			calcZyklus(i);
-		}
-		
+		}		
 	}
 	
 	//Ausgeben alle Werte der Folge bis limit
 	public static int printFolge(int value, int limit) {
 		for (int i=0; i<101; i++)
-		{
-			//Ausgeben
+		{   //Ausgeben
 			StdOut.printf("%d \t%02d -> %04d", i+1 , value, value*value);
 			value = getNext(value);
 			StdOut.println();	
@@ -50,7 +50,7 @@ public class MittleQuadratMethode2 {
 					start = 1;
 				else start = i+2;				
 				
-				StdOut.printf("%d - cycle start: %d, lange: %d", value,i+2, lange);
+				StdOut.printf("%d - cycle start: %d, lange: %d", value, start, lange);
 				StdOut.println();
 				
 				//Ausgeben alle werte bis der Annfang des Zyklus
