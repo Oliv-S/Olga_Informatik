@@ -5,10 +5,32 @@ public class MittleQuadratMethodeStatistik {
 	public static void main(String[] args) {
 		
 		//Überprüfe den Zyklus für jede Nummer 
-		for (int i=1; i<99;i++)
-		{
-			calcZyklus(i);
-		}		
+//		for (int i=1; i<99;i++)
+//		{
+//			calcZyklus(i);
+//		}	
+		
+		StdOut.printf("2.a. Der Eingabewert, der eine Folge erzeugt, die mit einem Zyklus beginnt"); 
+		StdOut.println();
+		calcZyklus(50);
+		StdOut.printf("2.b. Der Eingabewert, der eine Folge erzeugt, die einen Zyklus enthaelt, aber nicht damit beginnt");
+		StdOut.println();
+		calcZyklus(56);
+		
+		StdOut.printf("3.a. Eine Folge, die mit einem Zyklus der Länge 2 beginnt"); 
+		StdOut.println();
+		calcZyklus(57);
+		StdOut.printf("3.b. Ein Zyklus der Laenge 2 enthaelt, aber nicht damit beginnt");
+		StdOut.println();
+		calcZyklus(79);
+		
+		StdOut.printf("4. Die Folgen, welche einen Zyklus der Laenge groesser 1 enthalten"); 
+		StdOut.println();
+		calcZyklus(24);
+		calcZyklus(57);
+		calcZyklus(79);
+		
+		
 	}
 	
 	//Ausgeben alle Werte der Folge bis limit
@@ -58,7 +80,7 @@ public class MittleQuadratMethodeStatistik {
 				break;
 			}
 		}
-		StdOut.printf("***********");
+//		StdOut.printf("***********");
 		StdOut.println();		
 	}
 	

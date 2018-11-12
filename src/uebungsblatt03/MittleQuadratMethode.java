@@ -4,7 +4,7 @@ package uebungsblatt03;
  *  * Ein Folge mit einfachen rekursiven Bildungsgesetz ist einen Aufistung von (unendlich
  * vielen) fortlaufend nummerierten Folgengliedern (Zahlen), wobei ein Folgenglied (nur) aus
  * dem unmittelbar vorhergehenden Folgenglied berechnet wird. Das erste Folgenglied (Startwert)
- * wird explizit angegeben, somit konnen mit demselben Bildungsgesetz verschiedene
+ * wird explizit angegeben, somit koennen mit demselben Bildungsgesetz verschiedene
  * Folgen aus unterschiedlichen Startwerten erzeugt werden.
  * Eine Folge kann einen Zyklus, d.h. eine sich wiederholende minimale Teilfolge, enthalten.
  * Beispiel
@@ -25,8 +25,8 @@ package uebungsblatt03;
  * im Skript verwendet wird.
  * Hinweis
  * Damit Sie Ihre Applikation compilieren und starten konnen, mussen Sie
- * StdIn.java und StdOut.java von der Webseite https://introcs.cs.
- * princeton.edu/java/stdlib/ in das Verzeichnis mit dem Quellcode Ihrer Applikation
+ * StdIn.java und StdOut.java von der Webseite https://introcs.cs.princeton.edu/java/stdlib/ 
+ * in das Verzeichnis mit dem Quellcode Ihrer Applikation
  * kopieren.
  *  * Iterieren Sie folgende Schritte 101-mal (durch Mitzaehlen, z.B. mit einer for-
  * Schleife).
