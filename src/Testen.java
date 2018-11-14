@@ -1,10 +1,41 @@
 import java.util.ArrayList;
+import java.util.Formatter;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class Testen {   
     public static void main( String[] args){ 
+    	
+
+    	int i=6;
+    	while(i!=96)
+    	{
+    	  System.out.println(i);
+    	  if (i==41)
+    	  {
+    	    i=53;
+    	  }else{
+    	    i=i+1;
+    	  }
+    	}
+    	
+	}
+    
+	
+	public static String intToHexString(int input) {
+	    StringBuilder sb = new StringBuilder();
+	 
+	    Formatter formatter = new Formatter(sb);
+        formatter.format("%02x", input);
+
+        formatter.close();
+	    return sb.toString();
+	}
+	
+	public static void generateZahl()
+	{
+    	
     	List<String> s=new ArrayList<String>();
         for (int i1=0;i1<10;i1++)
         	for (int i2=0;i2<10;i2++)
@@ -27,8 +58,8 @@ public class Testen {
 //			System.out.println(string);
 		} 					
         	
-
 	}
+	
     
     public static boolean check(String s)
     {
