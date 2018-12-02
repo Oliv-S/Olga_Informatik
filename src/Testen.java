@@ -8,18 +8,25 @@ public class Testen {
     public static void main( String[] args){ 
     	
 
-    	int i=6;
-    	while(i!=96)
+    	/*
+    	String formel = " ¬(a∨c)⇒a⇒c∨b";
+    	String[] symbols = {"¬", "∨", "∧", "⊕", "⇒" }; 
+    	String[] replace = {" NOT ", " OR ", " AND ", " XOR ", " NOT + OR " };
+    	for (int i=0; i<symbols.length; i++)
     	{
-    	  System.out.println(i);
-    	  if (i==41)
-    	  {
-    	    i=53;
-    	  }else{
-    	    i=i+1;
-    	  }
+    		formel = formel.replace(symbols[i], replace[i]);
     	}
+    	System.out.println(formel);
+    	float f = 3e-1 ;
+    	*/
     	
+    	int i = 59795;
+    	while (i>0)
+    	{
+    		System.out.println(i + " - " + i%2);
+    		i=i/2;
+    	}
+    	System.out.println(Integer.toBinaryString( 59795));
 	}
     
 	

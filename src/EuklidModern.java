@@ -11,22 +11,22 @@ public class EuklidModern {
 	
 	// ggT(x,y)                                    // M1
 	int r=-1;
-	System.out.println("| " + "K1" + "\t| " + x + "\t| " + y + "\t| " + "-" + "\t| " + "ggT(x,y)");
+	System.out.println("| " + "M1" + "\t| " + x + "\t| " + y + "\t| " + "-" + "\t| " + "ggT(x,y)");
 	while ( y != 0 ) {                             // M2
-		System.out.print("| " + "K4" + "\t| " + x + "\t| " + y + "\t| ");
+		System.out.print("| " + "M2" + "\t| " + x + "\t| " + y + "\t| ");
 		if (r==-1)
 			System.out.print("-");
 		else 
 			System.out.print(r);
 		System.out.println("\t| " + " while(" + y + " != " + 0 + ")");
 	    r = x % y;                                 // M3
-		System.out.println("| " + "K4" + "\t| " + x + "\t| " + y + "\t| " + r + "\t| " + "  r = " + x + " % " + y);
+		System.out.println("| " + "M3" + "\t| " + x + "\t| " + y + "\t| " + r + "\t| " + "  r = " + x + " % " + y);
 	    x = y;                                     // M4
-		System.out.println("| " + "K4" + "\t| " + x + "\t| " + y + "\t| " + r + "\t| " + "  x = " + y);
+		System.out.println("| " + "M4" + "\t| " + x + "\t| " + y + "\t| " + r + "\t| " + "  x = " + y);
 	    y = r;                                     // M5
-		System.out.println("| " + "K4" + "\t| " + x + "\t| " + y + "\t| " + r + "\t| " + "  y = " + r);
+		System.out.println("| " + "M5" + "\t| " + x + "\t| " + y + "\t| " + r + "\t| " + "  y = " + r);
 	}
-	System.out.println("| " + "K4" + "\t| " + x + "\t| " + y + "\t| " + "-" + "\t| " + " = " + x);// M6
+	System.out.println("| " + "M6" + "\t| " + x + "\t| " + y + "\t| " + "-" + "\t| " + " = " + x);// M6
 	return;
     } 
 }

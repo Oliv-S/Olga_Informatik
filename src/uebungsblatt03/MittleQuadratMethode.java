@@ -1,7 +1,7 @@
 package uebungsblatt03;
 
 /**
- *  * Ein Folge mit einfachen rekursiven Bildungsgesetz ist einen Aufistung von (unendlich
+ *  * Ein Folge mit einfachen rekursiven Bildungsgesetz ist einen Auflistung von (unendlich
  * vielen) fortlaufend nummerierten Folgengliedern (Zahlen), wobei ein Folgenglied (nur) aus
  * dem unmittelbar vorhergehenden Folgenglied berechnet wird. Das erste Folgenglied (Startwert)
  * wird explizit angegeben, somit koennen mit demselben Bildungsgesetz verschiedene

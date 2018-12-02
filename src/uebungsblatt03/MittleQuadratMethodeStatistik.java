@@ -5,10 +5,10 @@ public class MittleQuadratMethodeStatistik {
 	public static void main(String[] args) {
 		
 		//Überprüfe den Zyklus für jede Nummer 
-//		for (int i=1; i<99;i++)
-//		{
-//			calcZyklus(i);
-//		}	
+		for (int i=1; i<99;i++)
+		{
+			calcZyklus(i);
+		}	
 		
 		StdOut.printf("2.a. Der Eingabewert, der eine Folge erzeugt, die mit einem Zyklus beginnt"); 
 		StdOut.println();
