@@ -17,7 +17,7 @@ public class Mittel
 		//Generiere n random positive Zahlen
 		//von 1 bis max
 		int max = 1000;
-		long[] feld = new long[n];
+		int[] feld = new int[n];
 		for (int i=0; i<n; i++)
 		{
 			//+1 um die Zahl > 0 zu werden

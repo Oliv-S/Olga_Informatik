@@ -1,6 +1,4 @@
-package uebungsblatt04;
-
-public class StringToFloat {
+public class StringToFloat2 {
 
 	public static void main(String[] args) {
 		String str = args[0];

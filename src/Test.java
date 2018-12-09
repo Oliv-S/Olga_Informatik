@@ -11,7 +11,7 @@ public class Test {
 		char[] c= {'a', 'b'};
 		System.out.println(b.equals(c));
 		String d= "";
-		d.com
+
 	}
 
 }
